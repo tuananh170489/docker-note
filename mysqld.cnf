@@ -1,0 +1,5 @@
+log-bin = /var/log/mysql/mysql-bin.log
+binlog-ignore-db = information_schema
+binlog-ignore-db = mysql
+gtid_mode = ON
+enforce_gtid_consistency = ON
